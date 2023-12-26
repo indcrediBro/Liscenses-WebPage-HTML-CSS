@@ -178,4 +178,32 @@ p {
 /*--------------Footer-------------*/
 .liscenses__footer {
     height: 618px;
+    padding: 0 360px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+}
+.footer__left {
+    padding-top: 25px;
+    width: 393px;
+}
+.footer-left__icons {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+}
+.footer__left-middle{
+    padding-left: 50px;
+    width:150px
+}
+.footer__right-middle {
+    padding-left: 50px;
+    width:300px
+}
+.footer__right {
+    width: 258px;
+}
+footer {
+    text-align: center;
 }
